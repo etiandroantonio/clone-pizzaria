@@ -1,0 +1,54 @@
+                           /*.............imagens.............*/
+                                
+                           .images{
+        
+                            .images__container{
+                                /*display: flex;
+                                justify-content: center;
+                                align-items: center;*/
+                                img{
+                                    width: 300px;
+                                    animation: bounce 5s ease-in-out alternate backwards infinite;
+                                    
+                                }
+                               
+                       
+                                @keyframes bounce{
+                                    to {
+                                        transform: translateX(calc(100vw - 1250px));
+                                    }
+                                }
+                       
+                            }
+                            
+                                                           
+                            }
+
+
+                            @media(min-width:260px) and (max-width:1200px){
+
+                                .images__container{
+                                    text-align: center;
+                                    
+                                    img:nth-child(n+2){
+                                        display: none;
+                                        //height: 30px;
+                                        width: 190px;
+                                        animation: bounce 5ms ease-in  infinite;
+                                        
+                                    }
+                                   
+                           
+                                    @keyframes bounce{
+                                       from {
+                                            transform:translateY(10px);
+                                        }
+                                       to {
+                                            transform: translateY(50px);
+                                        }
+                                        
+                                    }
+                           
+                                }
+
+                            }

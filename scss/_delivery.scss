@@ -1,0 +1,176 @@
+                         /*.............delivery.............*/
+                         .delivery{
+                            background-color:  rgba(204, 204, 204, 0.342);
+                            width: 100%;
+                            margin-top: 3rem;
+                            height: 50vh;
+                            display: flex;
+                            align-items: center;
+                            //height: 50vh;
+                    &__container{
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                
+                        img{
+                            width: 400px;
+                        }
+                        
+                        .delivery__content{
+                            line-height: 2;
+                            width: 50%;
+                            h1{
+                                color: rgb(208, 48, 18);
+                                font-weight: 900;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 35pt;
+                                
+                            
+                            }
+                            p{
+                                margin-bottom: 0.8rem;
+                            }
+                            img{
+                               // text-align: center;
+                               
+                                margin-left: -50px;
+                                margin-bottom: 1rem;
+                
+                            }
+                            
+                            
+                            a{
+                                text-decoration: none;
+                                font-size: 18pt;
+                                background-color: rgba(255, 166, 0, 0.863);
+                                padding:15px 70px 15px 70px;
+                                border-radius: 50px;
+                                color: #fff;
+                                margin-left: 30px;
+                                text-transform: capitalize;
+                
+                            }
+                        }
+                
+                       
+                    }
+                    
+                }
+                
+                @media screen and (max-width:960px){
+                    .delivery__container{
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 100%;
+                
+                        .img__delivery{
+                            width: 30%;
+                        }
+                        
+                        .delivery__content{
+                            line-height: 2;
+                            width: 50%;
+                            h1{
+                                color: rgb(208, 48, 18);
+                                font-weight: 900;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 35pt;
+                                
+                            
+                            }
+                            p{
+                                margin-bottom: 0.8rem;
+                            }
+                            img{
+                               // text-align: center;
+                               
+                                margin-left: -50px;
+                                margin-bottom: 1rem;
+                
+                            }
+                            
+                            
+                            a{
+                                text-decoration: none;
+                                font-size: 18pt;
+                                background-color: rgba(255, 166, 0, 0.863);
+                                padding:15px 70px 15px 70px;
+                                border-radius: 50px;
+                                color: #fff;
+                                margin-left: 30px;
+                                text-transform: capitalize;
+                
+                            }
+                        }
+                
+                       
+                    }
+                }
+
+                @media(min-width:460px) and (max-width:690px) {
+                    .delivery{
+                        height: 32vh;
+
+                    .delivery__container{
+                        max-width: 480px;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 100%;
+                    
+                
+                        .img__delivery{
+                            width: 30%;
+                            display: none;
+                        }
+
+                        .delivery__content{
+                            line-height: 2;
+                            width: 50%;
+                            text-align: center;
+                            h1{
+                                color: rgb(208, 48, 18);
+                                font-weight: 900;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 20pt;
+                                
+                            
+                            }
+                            p{
+                                margin-bottom: 0.8rem;
+                            }
+                            img{
+                            
+                               width: 300px;
+                                margin-left: -40px;
+                               
+                
+                            }
+                            
+                            
+                            a{
+                                text-decoration: none;
+                                font-size: 18pt;
+                                background-color: rgba(255, 166, 0, 0.863);
+                                padding:8px 40px 8px 40px;
+                                border-radius: 50px;
+                                color: #fff;
+                                margin-left: -6px;
+                                
+                                text-transform: capitalize;
+                
+                            }
+                        }
+                    }
+                       
+                }
+            }

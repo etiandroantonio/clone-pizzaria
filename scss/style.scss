@@ -1,0 +1,25 @@
+@import 'config';
+@import 'menu';
+@import 'welcome';
+@import 'images';
+@import '_delivery';
+@import 'service';
+@import 'locate';
+@import 'hero';
+@import 'carte';
+
+body{
+    overflow-x: hidden
+}
+
+footer{
+ background-color:  rgba(255, 166, 0, 0.863);
+ height: 6vh;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ color:#fff;
+ font-size: 13pt;
+ font-weight: 900;
+
+}
